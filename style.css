@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;&display=swap');
-
 body {
-    /* background-color: hsl(220, 15%, 55%); */
+
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -17,49 +15,48 @@ body {
     align-items: center;
     margin: 0;
     border-radius: 15px;
-    box-shadow: 4px 5px 30px gray, 
+    box-shadow: 3px 3px 25px rgb(143, 143, 143), 
     10px 3px 3px rgb(226, 226, 226);
-    /* width: 700px;
-    height: 500px; */
+    text-align: center;
+    width: 20rem;
 
 }
 
 .mid {
-    /*Because e nor work*/
-
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;*/
-    
     padding: 10px; 
-    margin: 0 auto;
-    
-    /* position: relative; */
+    margin: 0;
+
 }
 
 img {
-    position: relative;
     border-radius: 10px;
-    /* transform: translate(-50%, -50%); */
-    /* left: 50%; */
     margin: 0 auto;
-    width: 270px;
-    height: 250px;
+	width: 100%;
 }
 
 .dial {
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .dia {
     margin-top: 15px;
+    margin-bottom: 10px;
+    color: grey;
+    padding-bottom: 10px;
 }
+
 h2 {
     margin: 0;
 }
+
 p {
     font-size: 15px;
-    margin: 0px;
+    margin-bottom: 5px;
 
+}
+
+.adjustment {
+    margin: 10px;
+    font-size: 15px;
 }
